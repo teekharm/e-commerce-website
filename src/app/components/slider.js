@@ -20,7 +20,7 @@ export default function Slider() {
       autoplay={{ delay: 4000 }}
     >
       <SwiperSlide>
-        <div className="bg-stone-950 w-full gap-5 flex h-140 lg:h-100 justify-center">
+        <div className="bg-stone-950 w-full gap-5 flex h-125 lg:h-100 justify-center">
           <div className="flex flex-col  lg:flex-row gap-10 items-center p-7">
             <div className="flex flex-col items-center gap-5">
               <h1 className="text-white text-4xl text-center">
@@ -39,7 +39,7 @@ export default function Slider() {
         </div>
       </SwiperSlide>
       <SwiperSlide className="w-full flex justify-center items-center">
-        <div className="bg-gray-100 w-full h-140 lg:h-100 flex justify-center items-center">
+        <div className="bg-gray-100 w-full h-125 lg:h-100 flex justify-center items-center">
           <div className="flex flex-col lg:flex-row justify-center items-center text-center w-full gap-2 lg:gap-10 px-4 py-10">
             {/* Left section */}
             <div className="space-y-1 flex flex-col items-center">
@@ -48,7 +48,7 @@ export default function Slider() {
                 alt="MacBook Pro"
                 className="w-[11rem]"
               />
-              <h2 className="text-5xl lg:text-2xl font-extrabold">
+              <h2 className="text-3xl  lg:text-2xl font-extrabold">
                 Blaze through work <br /> and play at school.
               </h2>
             </div>
@@ -77,7 +77,7 @@ export default function Slider() {
       </SwiperSlide>
 
       <SwiperSlide>
-        <div className="bg-gray-100 w-full h-150 lg:h-100">
+        <div className="bg-gray-100 w-full h-125 lg:h-100">
           <div className="flex flex-col lg:flex-row items-center justify-center gap-10 p-10">
             <div className="flex flex-col  gap-3 items-center">
               <h1 className="text-4xl font-extrabold text-center">
@@ -91,7 +91,7 @@ export default function Slider() {
               </button>
             </div>
             <div className="">
-              <img src="/iPhone-13-PNG-Transparent.png" className="w-180 lg:w-210"></img>
+              <img src="/iPhone-13-PNG-Transparent.png" className="w-180 h-50 lg:w-210"></img>
             </div>
           </div>
         </div>
