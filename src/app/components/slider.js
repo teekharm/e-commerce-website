@@ -24,8 +24,8 @@ export default function Slider() {
           <div className="flex flex-col  lg:flex-row gap-10 items-center p-7">
             <div className="flex flex-col items-center gap-5">
               <h1 className="text-white text-4xl text-center">
-                Work at iStore <br></br> Your path, Your purpose <br></br>{" "}
-                <span className="text-blue-500">join iStore today</span>
+                Work at OnlineStore <br></br> Your path, Your purpose <br></br>{" "}
+                <span className="text-blue-500">join OnlineStore today</span>
               </h1>
               <button className="py-2 px-5 bg-black text-white border-2 border-white rounded-md">
                 Apply now
@@ -91,7 +91,7 @@ export default function Slider() {
               </button>
             </div>
             <div className="">
-              <img src="/iPhone-13-PNG-Transparent.png" className="w-180 h-50 lg:w-210"></img>
+              <img src="/iPhone-13-PNG-Transparent.png" className="w-180 h-50 lg:w-210 lg:h-90"></img>
             </div>
           </div>
         </div>

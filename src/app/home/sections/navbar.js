@@ -3,7 +3,7 @@ export default function Navbar({toggle, drawerOpen}) {
   return (
     <nav className="w-full bg-black text-white p-5 flex justify-between items-center">
       <button className="lg:hidden" onClick={toggle}>
-        {drawerOpen? "X" :<img className="w-4" src="/icons8-hamburger-menu-50-2.png"></img> }
+        {drawerOpen? <img className="w-6" src="/icons8-close.svg"></img> :<img className="w-4" src="/icons8-hamburger-menu-50-2.png"></img> }
       </button>
       <h1 className="font-extrabold">OnlineStore</h1>
       <div className="hidden lg:flex flex-row items-center">
